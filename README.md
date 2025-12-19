@@ -35,8 +35,14 @@ brew install --ignore-dependencies maven
 
 ## Usage
 
-### 1. Build the project
+### Build the project
 
 ```bash
-mvn clean install
+mvn clean package
+```
+
+### Run the project
+
+```bash
+mvn javafx:run
 ```
